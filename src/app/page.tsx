@@ -43,7 +43,7 @@ export default async function Home() {
           <h2 className="mr-auto font-semibold">{post.title}</h2>
         </div>
         <Link
-          href={`/blog/edit/1`}
+          href={`/blog/edit/${post.id}`}
           className="px-4 py-1 text-center text-xl bg-slate-900 rounded-md font-semibold text-slate-200"
         >
           編集
